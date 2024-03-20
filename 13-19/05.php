@@ -1,0 +1,13 @@
+<?php
+/*
+echo
+print
+if.
+else
+elseif
+while
+for
+foreach
+function
+return
+*/
