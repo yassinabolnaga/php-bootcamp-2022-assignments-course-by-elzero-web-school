@@ -3,16 +3,16 @@
 $start = 0;
 $mix = [1, 2, 3, "A", "B", "C", 4];
 
-for ($start = 0; $start < count($mix); $start++ ) {
-    if (is_int($mix[$start])){
+for ($i = $start; $i < count($mix); $i++ ) {
+    if (is_int($mix[$i])){
 
-        if (($mix[$start]) == 1){
+        if (($mix[0])){
 
             continue;
 
         }
-        
-        echo $mix[$start];
+
+        echo $mix[$i];
         echo '<br>';
     }
 }
