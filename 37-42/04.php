@@ -1,7 +1,5 @@
 <?php
 
-$start = 10;
-
 for ($start = 10; $start <=10; $start--){
 
     if ($start < 10){
