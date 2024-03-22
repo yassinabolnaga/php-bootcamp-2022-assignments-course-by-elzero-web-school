@@ -16,9 +16,9 @@ function sum_all(...$nums){
         $result += $num;
     endforeach;
     return $result;
+    echo '<br>';
 }
 
 // Needed Output
 echo sum_all(10, 12, 5, 6, 6, 10); // 64
-echo '<br>';
 echo sum_all(5, 10, 5, 10); // 40
