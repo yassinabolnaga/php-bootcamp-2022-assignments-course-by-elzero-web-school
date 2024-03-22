@@ -16,9 +16,7 @@ function sum_all(...$nums){
         $result += $num;
     endforeach;
     
-    if (end($nums)) {
-        echo '<br>';
-    };
+    echo '<br>';
     return $result;
 }
 
